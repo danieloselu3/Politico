@@ -89,16 +89,18 @@ h3{
     margin-top: 30px;
 }
 
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
 /*
     =============================
     Body
     =============================
 */
-
-html, body {
-    width: 100%;
-    height: 100%;
-}
 
 body {
     min-height: 100%;
@@ -112,43 +114,71 @@ body {
 }
 
 main {
-    flex-grow: 1;
+    width: 100%;
     background-color: #fff;
 }
 
-header, main, footer {
-    flex-shrink: 0;
-}
-
 .body-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0 auto;
-    text-align: left;
     color: #111;
-    width: 100%;
 }
 
 .voter-detail {
-    text-align: center;
-}
-
-#flt-cnt li {
-    font-size: 16px;
-    padding-bottom: 5px;
-}
-
-#flt-cnt {
-    float: right;
-    margin-right: 50%;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-right: 20px;
 }
 
 #flt-img {
-    margin-left: 10%;
-    margin-top: 60px;
-    border-radius: 5px;
+    margin-right: 20px;
+    border-radius: 6px;
 }
+.cast-1 {
+    display:flex;
+    flex-direction: row;
+    max-height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cast-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: .5px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 1px 4px black;
+
+}
+
+.cast-img {
+    padding: 5px;
+}
+
+.cast-img h3 {
+    margin-left: 10px;
+    text-align: center;
+}
+#vote-cast-img {
+    border-radius: 5px;
+    max-width: 109px;
+    max-height: 108px;
+}
+
 
 /*
     =============================
@@ -168,7 +198,9 @@ footer {
 
 .footer-context {
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 /*
