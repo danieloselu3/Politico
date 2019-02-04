@@ -255,9 +255,15 @@ header {
     align-items: center;
 
 }
+header a {
+    color: #fff;
+}
 
 a {
     text-decoration: none;
+    color: #111;
+}
+button a {
     color: #111;
 }
 
