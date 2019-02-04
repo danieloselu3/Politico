@@ -123,6 +123,9 @@ a {
     text-decoration: none;
     color: #111;
 }
+.container a:hover {
+    color: #006666;
+}
 
 
 /*
@@ -145,6 +148,10 @@ footer {
 header {
     background-color: #006666;
     padding-top: 50px;
+}
+
+header a {
+    color: #fff;
 }
 
 /*
