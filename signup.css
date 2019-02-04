@@ -93,6 +93,7 @@ h3{
     margin-top: 30px;
 }
 
+
 /*
     =============================
     Body
@@ -141,7 +142,10 @@ header {
     background-color: #006666;
     padding-top: 50px;
 }
-
+header a {
+    text-decoration: none;
+    color: #fff;
+}
 
 /*
     ===============================
@@ -175,4 +179,9 @@ input {
     background-color: #fff;
     float: right;
     margin-left: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: #111;
 }
