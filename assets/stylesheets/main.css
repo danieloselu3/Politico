@@ -185,7 +185,13 @@ main {
     padding: 5px;
     margin-bottom: 5px;
 }
+ .politician-prof button{
+     margin: 10px;
+ }
 
+ .politician-prof img {
+     margin: 10px;
+ }
 
 /*
     =============================
@@ -345,4 +351,21 @@ li {
 
 .cast-row p {
     padding: 10px;
+}
+
+/*
+    ====================
+    Politician Form
+    ====================
+*/
+.run-for-office {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.run-for-office input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
